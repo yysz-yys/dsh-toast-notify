@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "dsh-desktop-notify",
+      "name": "dsh-toast-notify",
       "title": { "en": "Desktop notifications (Windows)", "zh": "桌面通知（Windows）" },
       "description": {
         "en": "Windows toast notifications for task completion, failure, blocking, and pending questions. Shows the workspace name, its path, the run time, and what happened; click to open that chat.",
@@ -24,7 +24,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/yysz-yys/dsh-toast-notify",
-            "commit": "073b3c32eada508917dc29cb1b768b455c2afd04"
+            "commit": "c180d029d8367faa172145850dba2f823b7d5bdb"
           },
           "engines": { "dsh": ">=0.2.1-rc.2" }
         }

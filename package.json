@@ -1,5 +1,5 @@
 {
-  "name": "dsh-desktop-notify",
+  "name": "dsh-toast-notify",
   "version": "1.0.0",
   "type": "module",
   "description": "DeepSeek Harness 插件：任务完成、失败、阻塞或等待你操作时弹出 Windows 通知，带工作区名、路径、耗时与具体内容，点击可跳到对应会话。",

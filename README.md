@@ -90,7 +90,7 @@ E:\work\demo-app · 耗时 2 分 14 秒
 
 ## 关于包名
 
-本项目在插件市场里以 `dsh-desktop-notify` 列出，通过 Git 源安装。npm 上另有一个同名包（跨平台通知插件），与本仓库无关。
+本项目的包名是 `dsh-toast-notify`，与仓库同名，通过 Git 源在插件市场里列出。npm 上曾有一个 `dsh-desktop-notify`（别人的跨平台通知插件），与本仓库无关，本插件也未发布到 npm。
 
 ## 许可证
 

@@ -1,6 +1,6 @@
 - insert:
-    - id: desktop-notify
-      name: dsh-desktop-notify
+    - id: toast-notify
+      name: dsh-toast-notify
       config:
         enabled: true
         locale: auto

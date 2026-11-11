@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop notifications",
+    "description": "Shows a Windows toast when a task completes, fails, or waits for your answer."
+  }
+}

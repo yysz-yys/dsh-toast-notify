@@ -1,0 +1,66 @@
+{
+  "name": "dsh-desktop-notify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness 插件：任务完成、失败、阻塞或等待你操作时弹出 Windows 通知，带工作区名、路径、耗时与具体内容，点击可跳到对应会话。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "cordis",
+    "notification",
+    "toast",
+    "windows",
+    "workspace"
+  ],
+  "license": "MIT",
+  "author": "yysz-yys",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yysz-yys/dsh-toast-notify.git"
+  },
+  "homepage": "https://github.com/yysz-yys/dsh-toast-notify#readme",
+  "bugs": {
+    "url": "https://github.com/yysz-yys/dsh-toast-notify/issues"
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "meta": {
+    "title": "Desktop notifications",
+    "description": "Shows a Windows toast when a task completes, fails, is blocked, or waits for your answer; click it to open that chat."
+  },
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "assets/app-icon.png",
+    "assets/notify-open.ps1",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

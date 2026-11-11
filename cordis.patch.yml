@@ -1,0 +1,21 @@
+- insert:
+    - id: desktop-notify
+      name: dsh-desktop-notify
+      config:
+        enabled: true
+        locale: auto
+        events:
+          completed: true
+          error: true
+          blocked: true
+          needsInput: true
+          approval: true
+        includeSubagents: false
+        minDurationMs: 3000
+        settleMs: 1500
+        dedupeMs: 5000
+        sound: true
+        aumid: com.deepseek.dsh
+        manageIdentity: true
+        testOnStart: false
+        debug: false
